@@ -2,29 +2,44 @@
 <html>
 <head>
 	<title>Contact us</title>
+	<style>
+
+	body { font-family: Arial, Helvetica, sans-serif;}
+
+	input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+		
+	</style>
 </head>
-<body bgcolor="#E6E6FA">
+<body bgcolor="#E6E6FA" >
 
 	<h1>Contact us Form</h1>
-
+<div>
 
 <form >
 
 
-	First Name : <input type="text " name="" placeholder="input ur first name"> <br><br>
+	First Name : <input type="text" name="" placeholder="input ur first name"> <br><br>
 	Last Name : <input  type="text" name ="" placeholder="input ur last name"><br><br>
-	E-mail Address : <input type="test" name="" placeholder="Enter ur email"> <br><br>
+	E-mail Address : <input type="text" name="" placeholder="Enter ur email"> <br><br>
 	Profission : 
-	<select name="Profission">                                                                                 
-
+	<select name="Profission">                                                                               
 	    <option value="Student">Student</option>
-
-	    <option value="Employee">Employee</option>                               
-
+	    <option value="Employee">Employee</option>                         
 	    <option value="jobless">jobless</option>
-
-	</select> 
-	<br><br>Subject :<br> <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	</select> <br>
+	
+	Subject : <br><textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
 <br><br>
 
@@ -50,6 +65,8 @@
 
 
 
+	
+</div>
 
 <script  type="text/javascript" >
 	function accept() 
